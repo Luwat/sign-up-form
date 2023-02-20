@@ -15,8 +15,33 @@ body {
 }
 
 .nav-bar {
-    width: 37%;
-    height: 100vh;
-    border: 1px solid #d6d5d7;
+    width: 37.2%;
+    min-height: 100vh;
     background: url('../assets/kevin-wang-t3RgJDGGtDw-unsplash.jpg') no-repeat center/cover;
+}
+
+.logo {
+    display: flex;
+    background-color: #fff6;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img {
+    height: 120px;
+    width: auto;
+}
+
+
+.logo-text {
+    font-family: logoFont;
+    color: #000;
+    font-size: 48px;
+
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
