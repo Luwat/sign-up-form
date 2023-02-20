@@ -5,6 +5,11 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
+@font-face {
+    font-family: logoFont;
+    src: url(../assets/Norse-Bold.otf);
+}
+
 body {
     display: flex;
 }
