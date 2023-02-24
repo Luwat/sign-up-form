@@ -52,6 +52,17 @@ body {
     font-size: 60px;
 
 }
+
+.credit {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.credit a {
+    text-decoration: none;
+    color: #fff;
+}
 .main {
     display: flex;
     flex-direction: column;
