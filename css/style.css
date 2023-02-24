@@ -46,6 +46,18 @@ body {
     text-align: center;
 }
 
+.form-input-wrapper, 
+.form-input, 
+.form-header {
+    padding: 20px;
+}
+
+.form-input-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
 .form-input {
-    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
