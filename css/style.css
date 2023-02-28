@@ -123,3 +123,16 @@ body {
     box-shadow: inset 0px 5px 5px #dfe2e7;
     height: 55vh;
 }
+
+button[type="submit"] {
+    background-color: #596d48;
+    color: #f8f9ff;
+    border: none;
+    border-radius: 8px;
+    width: 250px;
+    height: 55px;
+    font-size: large;
+    margin: 20px 0;
+}
+
+
