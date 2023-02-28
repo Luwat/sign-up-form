@@ -38,6 +38,7 @@ body {
     height: 120px;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .logo img {
@@ -124,7 +125,7 @@ body {
     height: 55vh;
 }
 
-button[type="submit"] {
+button[type="button"] {
     background-color: #596d48;
     color: #f8f9ff;
     border: none;
@@ -133,6 +134,15 @@ button[type="submit"] {
     height: 55px;
     font-size: large;
     margin: 20px 0;
+    cursor: pointer;
+}
+
+button[type="button"]:hover {
+    background-color: #f8f9ff;
+    color: #596d48;
+    border: 2px solid #596d48;
+    box-shadow: 0px 0px 6px;
+    transition: ease-in-out .2s;
 }
 
 
