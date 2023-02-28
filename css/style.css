@@ -136,3 +136,13 @@ button[type="submit"] {
 }
 
 
+.login {
+    margin: 20px 0;
+    font-size: large;
+    font-weight: bold;
+}
+
+.login a {
+    color: #596d48;
+    text-decoration: none;
+}
