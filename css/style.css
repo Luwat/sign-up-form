@@ -113,6 +113,14 @@ body {
     border: 1px solid #e5e7eb;
 }
 
+input:focus {
+    background-color: #e5e7eb;
+    border: .5px solid #00f;
+    outline: .5px solid #00f;
+    box-shadow: 1px 1px 10px 5px #596d48;
+    padding: 0 10px;
+}
+
 .form-input label {
     font-size: 0.8rem;
     font-weight: bold;
